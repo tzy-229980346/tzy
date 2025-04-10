@@ -112,48 +112,60 @@ const activeItem = ref('入驻歌手');
 const setActive = (item) => {
     activeItem.value = item;
 };
+import singer1 from '@/assets/img/singer1.jpg';
+import singer2 from '@/assets/img/singer.jpg';  
 
 // 模拟歌手数据
 const artistList = [
     { 
         name: '周杰伦', 
-        img: '/src/assets/img/singer.jpg' 
+        img: singer1, 
+        id: 1
     },
     { 
         name: '林俊杰', 
-        img: '/src/assets/img/singer1.jpg' 
-    },
-    { 
-        name: '陈奕迅', 
-        img: '/src/assets/img/singer.jpg' 
-    },
-    { 
-        name: '薛之谦', 
-        img: '/src/assets/img/singer1.jpg' 
-    },
-    { 
-        name: '李荣浩', 
-        img: '/src/assets/img/singer.jpg' 
-    },
-    { 
-        name: '张学友', 
-        img: '/src/assets/img/singer.jpg' 
+        img: singer2,
+        id: 2
     },
     { 
         name: '王力宏', 
-        img: '/src/assets/img/singer1.jpg' 
+        img: singer1,
+        id: 3
     },
     { 
-        name: '华晨宇', 
-        img: '/src/assets/img/singer.jpg' 
+        name: '张学友', 
+        img: singer2,
+        id: 4
+    },
+    { 
+        name: '王菲', 
+        img: singer2,
+        id: 5
+    },
+    { 
+        name: '陈奕迅', 
+        img: singer1,
+        id: 6
+    },
+    { 
+        name: '薛之谦', 
+        img: singer2,
+        id: 7
+    },
+    { 
+        name: '李宗盛', 
+        img: singer1,
+        id: 8
+    },
+    { 
+        name: '孙燕姿', 
+        img: singer2,
+        id: 9
     },
     { 
         name: '邓紫棋', 
-        img: '/src/assets/img/singer1.jpg' 
-    },
-    { 
-        name: '五月天', 
-        img: '/src/assets/img/singer.jpg' 
+        img: singer1,
+        id: 10
     }
 ];
 </script>

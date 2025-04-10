@@ -18,55 +18,67 @@
 <script setup>
 import { ref } from 'vue';
 
+// 导入所有需要的图片资源
+import img1 from '@/assets/img/1.jpg';
+import img2 from '@/assets/img/2.jpg';
+import img3 from '@/assets/img/3.jpg';
+import img4 from '@/assets/img/4.jpg';
+import li1Image from '@/assets/img/li1.jpg';
+import li2Image from '@/assets/img/li2.jpg';
+import li3Image from '@/assets/img/li3.jpg';
+import li4Image from '@/assets/img/li4.jpg';
+import li5Image from '@/assets/img/li5.jpg';
+import li6Image from '@/assets/img/li6.jpg';
+
 // 模拟数据，实际项目中可能需要从API获取
 const programList = ref([
   {
-    imgUrl: '/src/assets/img/1.jpg',
+    imgUrl: img1,
     title: '【轻音乐】舒缓心灵的纯音乐合集',
     author: '音乐电台'
   },
   {
-    imgUrl: '/src/assets/img/2.jpg',
+    imgUrl: img2,
     title: '周杰伦歌曲专辑解析',
     author: '流行音乐台'
   },
   {
-    imgUrl: '/src/assets/img/3.jpg',
+    imgUrl: img3,
     title: '古典音乐赏析：贝多芬专辑',
     author: '古典音乐电台'
   },
   {
-    imgUrl: '/src/assets/img/4.jpg',
+    imgUrl: img4,
     title: '爵士乐发展史及经典作品',
     author: '爵士音乐台'
   },
   {
-    imgUrl: '/src/assets/img/li1.jpg',
+    imgUrl: li1Image,
     title: '民谣歌手访谈实录',
     author: '民谣之声'
   },
   {
-    imgUrl: '/src/assets/img/li2.jpg',
+    imgUrl: li2Image,
     title: '电影原声带精选',
     author: '影视音乐台'
   },
   {
-    imgUrl: '/src/assets/img/li3.jpg',
+    imgUrl: li3Image,
     title: '说唱音乐发展与文化',
     author: '嘻哈电台'
   },
   {
-    imgUrl: '/src/assets/img/li4.jpg',
+    imgUrl: li4Image,
     title: '音乐人生活日记',
     author: '音乐人故事'
   },
   {
-    imgUrl: '/src/assets/img/li5.jpg',
+    imgUrl: li5Image,
     title: '乐器学习指南：钢琴篇',
     author: '乐器学习台'
   },
   {
-    imgUrl: '/src/assets/img/li6.jpg',
+    imgUrl: li6Image,
     title: '音乐制作技巧分享',
     author: '音乐制作人'
   }

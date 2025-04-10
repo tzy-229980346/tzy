@@ -12,25 +12,30 @@
 
 <script setup>
 import { ref } from 'vue';
+// 导入所有需要的图片资源
+import li1Image from '@/assets/img/li1.jpg';
+import li2Image from '@/assets/img/li2.jpg';
+import li3Image from '@/assets/img/li3.jpg';
+import li4Image from '@/assets/img/li4.jpg';
 
 const podcasts = ref([
   {
-    imageUrl: '/src/assets/img/li1.jpg',
+    imageUrl: li1Image,
     title: '音乐历史探索',
     description: '深入探讨各个时代的音乐发展，带您领略音乐的魅力与变迁。'
   },
   {
-    imageUrl: '/src/assets/img/li2.jpg',
+    imageUrl: li2Image,
     title: '当代音乐人访谈',
     description: '独家对话当红音乐人，了解他们的创作灵感和音乐理念。'
   },
   {
-    imageUrl: '/src/assets/img/li3.jpg',
+    imageUrl: li3Image,
     title: '世界民族音乐之旅',
     description: '带您环游世界，聆听各国独特的民族音乐，感受文化的多样性。'
   },
   {
-    imageUrl: '/src/assets/img/li4.jpg',
+    imageUrl: li4Image,
     title: '音乐制作技巧分享',
     description: '专业音乐人分享制作技巧，从作曲到混音，全方位提升您的音乐技能。'
   }
