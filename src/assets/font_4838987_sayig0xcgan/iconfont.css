@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4838987 */
+  src: url('iconfont.eot?t=1743406864516'); /* IE9 */
+  src: url('iconfont.eot?t=1743406864516#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('iconfont.woff2?t=1743406864516') format('woff2'),
+       url('iconfont.woff?t=1743406864516') format('woff'),
+       url('iconfont.ttf?t=1743406864516') format('truetype'),
+       url('iconfont.svg?t=1743406864516#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-wangyiyungrey:before {
+  content: "\e614";
+}
+
+.icon-huore:before {
+  content: "\e600";
+}
+
+.icon-baohu:before {
+  content: "\e60d";
+}
+
+.icon-guanlian:before {
+  content: "\e6bf";
+}
+
+.icon-vynil:before {
+  content: "\e61f";
+}
+
+.icon-xuanzhuan:before {
+  content: "\e636";
+}
+
+.icon-wuguan:before {
+  content: "\ec5f";
+}
+
+.icon-shang1:before {
+  content: "\e601";
+}
+

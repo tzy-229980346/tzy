@@ -1,0 +1,65 @@
+{
+  "id": "4838987",
+  "name": "网易云底部图标",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3079221",
+      "name": "网易云_灰",
+      "font_class": "wangyiyungrey",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "201559",
+      "name": "火热",
+      "font_class": "huore",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "1092109",
+      "name": "保护",
+      "font_class": "baohu",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "1789466",
+      "name": "关联",
+      "font_class": "guanlian",
+      "unicode": "e6bf",
+      "unicode_decimal": 59071
+    },
+    {
+      "icon_id": "3878696",
+      "name": "音乐",
+      "font_class": "vynil",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "4996804",
+      "name": "旋转",
+      "font_class": "xuanzhuan",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "5961321",
+      "name": "AI",
+      "font_class": "wuguan",
+      "unicode": "ec5f",
+      "unicode_decimal": 60511
+    },
+    {
+      "icon_id": "41340558",
+      "name": "赏-copy",
+      "font_class": "shang1",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    }
+  ]
+}
